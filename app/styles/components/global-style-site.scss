@@ -4,8 +4,7 @@
 body {
     font-size: 13px;
     font-family: 'Roboto300', sans-serif;
-    font-weight: 400; 
-    color: #837880;
+    color: $white;
 }
 html{
     scroll-behavior: smooth;
@@ -14,15 +13,11 @@ html{
     max-width: 960px;
     margin: 0 auto;
 }
-// .block {
-//     max-width: 1570px;
-//     margin: 0 auto;
-// } 
 a{  
     display: block;
     cursor: pointer;    
     text-decoration: none;
-}
+    }
 a:hover, a:focus {
     text-decoration: none; 
 }
@@ -30,12 +25,7 @@ a:hover, a:focus {
     // display: inline-block;
      
     text-align: center;
-    // width: 290px;
-    // padding: 25px 0;
-    // color: $light;
-    // border-top: 1px solid $light;
-    // border-bottom: 1px solid $light;    
-    // text-transform: uppercase;            
+               
 }
 // @media (max-width: 767px){
 //     .more {         
