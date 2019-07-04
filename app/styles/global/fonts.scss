@@ -1,25 +1,32 @@
 @font-face {
-  font-family: PTSans;
-  src: url('/fonts/PT_Sans-Web-Regular.ttf');
+  font-family: 'Roboto700';
+  src: url('/fonts/Roboto-Bold.eot');
+  src: url('/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Roboto-Bold.woff2') format('woff2'),
+      url('/fonts/Roboto-Bold.woff') format('woff'),
+      url('/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('/fonts/PlayfairDisplay-Regular.ttf');
+  font-family: 'Roboto300';
+  src: url('/fonts/Roboto-Light.eot');
+  src: url('/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Roboto-Light.woff2') format('woff2'),
+      url('/fonts/Roboto-Light.woff') format('woff'),
+      url('/fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'icomoon';
-  src:  url('/fonts/icons/icomoon.eot?rexgz6');
-  src:  url('/fonts/icons/icomoon.eot?rexgz6#iefix') format('embedded-opentype'),
-  url('/fonts/icons/icomoon.ttf?rexgz6') format('truetype'),
-  url('/fonts/icons/icomoon.woff?rexgz6') format('woff'),
-  url('/fonts/icons/icomoon.svg?rexgz6#icomoon') format('svg');
+  font-family: 'Roboto400';
+  src: url('/fonts/Roboto-Regular.eot');
+  src: url('/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Roboto-Regular.woff2') format('woff2'),
+      url('/fonts/Roboto-Regular.woff') format('woff'),
+      url('/fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

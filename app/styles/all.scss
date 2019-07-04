@@ -1,14 +1,11 @@
 @import "global/reset.scss";
-@import "global/_variаble";
+@import "global/variаble";
 @import "global/fonts";
 
 
-
+@import "components/global-style-site";
 @import "components/main";
-// @import "components/global-style-site";
-// @import "components/banner";
-// @import "components/biography";
-// @import "components/discounts";
-// @import "components/partner";
-// @import "components/block_news";
-// @import "components/kontakt";
+@import "components/gallery";
+@import "components/link";
+@import "components/statistics";
+@import "components/video";
