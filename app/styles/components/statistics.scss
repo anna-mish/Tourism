@@ -1,15 +1,13 @@
 .statistics { 
     padding: 70px 0 125px 0;  
     .stat-title {
-        font-size: 30px; 
-        // line-height: 57px; 
+        font-size: 30px;  
         letter-spacing: 1.2px;
         text-align: center;
         padding-bottom: 65px;
     }  
     .question {
-        font-size: 30px;
-        // line-height: 57px;
+        font-size: 30px; 
         letter-spacing: 1.2px;
         padding-bottom: 10px;
     }
@@ -43,21 +41,8 @@
     }
 }  
 @media (max-width: 767px) {   
-   
-}
-@media (min-width: 767px) and (max-width: 992px) { 
-    // .statistics {
-    //     padding-left: 20px;
-    //     padding-right: 20px;
-    // }
-   
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-        
-}
-
-// @media screen and (max-width: 800px) {
-//     .statistics {
-//         padding: 70px 20px 125px 20px; 
-//     }
-// }
+    .statistics {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+} 
