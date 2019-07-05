@@ -1,17 +1,11 @@
  .main {               
     background: url(../images/bg-main.png) center no-repeat/cover;   
-    
+    color: $white;
     .logo {
-        font-size: 21px;
-        font-family: 'Roboto700';
-        color: $white;
-        line-height: 30.34px;
-        letter-spacing: 0.84px;
-        text-align: center;
-        padding-bottom: 195px; 
-        padding-top: 80px;
+        @include logo;
+        padding: 80px 0 195px 0;
     } 
-    .banner {
+    .banner-main {
         padding-bottom: 245px;
         &-title {
             font-family: 'Roboto700';

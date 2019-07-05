@@ -4,12 +4,12 @@
 body {
     font-size: 13px;
     font-family: 'Roboto300', sans-serif;
-    color: $white;
+    color: $black;
 }
 html{
     scroll-behavior: smooth;
 }
-.wrapper {
+.container {
     max-width: 960px;
     margin: 0 auto;
 }
@@ -20,24 +20,8 @@ a{
     }
 a:hover, a:focus {
     text-decoration: none; 
-}
+} 
 .btn {
-    // display: inline-block;
-     
-    text-align: center;
-               
-}
-// @media (max-width: 767px){
-//     .more {         
-//         font-size: 20px;         
-//         width: 220px;
-//         padding: 15px 0;                  
-//     }
-// }
-// @media (min-width: 767px) and (max-width: 992px) {
-//     .more {         
-//         font-size: 22px;         
-//         width: 240px;
-//         padding: 20px 0;                  
-//     }
-// }
+    @include button-reset;
+    @include btn-style;
+} 
