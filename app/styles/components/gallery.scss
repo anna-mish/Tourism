@@ -42,6 +42,7 @@
     }
     .image {
         position: absolute;
+        display: block;
         top: -63px;
         left: auto;
         right: 0;
@@ -49,12 +50,22 @@
         height: 740px;
     }
 }
-@media (max-width: 767px) {
-     
+
+@media (min-width: 767) and (max-width: 992px) { 
+    .gallery {
+        .gallery-block {
+            .pictures {
+                .f-inner {
+                    display: none;
+                }
+            }
+        } 
+        .image {
+            display: none;
+        }
+    } 
 }
-@media (min-width: 767px) and (max-width: 992px) {
-    
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-    
-}
+// @media (max-width: 767px) {   
+   
+// }
+ 

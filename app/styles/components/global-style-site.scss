@@ -25,3 +25,8 @@ a:hover, a:focus {
     @include button-reset;
     @include btn-style;
 } 
+@media (min-width: 767) and (max-width: 992px) {
+    .container {
+	    max-width: 768px;
+	}
+} 
