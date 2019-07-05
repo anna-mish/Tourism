@@ -1,11 +1,12 @@
 @import "global/reset.scss";
 @import "global/variаble";
 @import "global/fonts";
+@import "global/mixin";
 
 
 @import "components/global-style-site";
 @import "components/main";
 @import "components/gallery";
-@import "components/link";
+@import "components/banner";
 @import "components/statistics";
 @import "components/video";

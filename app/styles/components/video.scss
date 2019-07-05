@@ -1,5 +1,16 @@
 .video {
-    margin-bottom: 300px;
+    background: url(../images/video-block-bg.png) center no-repeat/cover;  
+    text-align: center;
+    padding-top: 115px;   
+    .banner-text {
+        @include banner-text;
+        padding-bottom: 75px;
+   }
+   .logo {
+    @include logo;
+    padding: 115px 0 95px 0;
+} 
+
 }
 @media (max-width: 767px) { 
     
