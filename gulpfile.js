@@ -24,7 +24,7 @@ gulp.task('sass', () => {
 
 gulp.task('sass:build', () => gulp.src(config.paths.entry.styles)
     .pipe(sourcemaps.init())
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer(config.autoprefixer))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build/css'))
