@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp",
-    "start:debug": "gulp debug"
+    "start": "concurrently \"npm run prettier:styles\" \"npm run gulp\"",
+    "gulp": "gulp",
+    "prettier:styles": "prettier --write app/styles/*.scss app/styles/**/*.scss"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.5",
+    "concurrently": "^4.1.1",
     "del": "^4.1.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
@@ -27,6 +29,7 @@
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
+    "prettier": "1.18.2",
     "run-sequence": "^2.2.1",
     "webpack": "^4.32.2",
     "webpack-stream": "^5.2.1"
