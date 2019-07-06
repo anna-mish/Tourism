@@ -1,23 +1,48 @@
- .main {               
-    background: url(../images/bg-main.png) center no-repeat/cover;   
+ .main {
+    background: url(../images/bg-main.png) center no-repeat/cover;
     color: $white;
+     //--component breakpoints start
+     @include large {
+         //transform: scale(4);
+     }
+     @include medium {
+         //transform: scale(6);
+     }
+     //--component breakpoints end
     .logo {
         @include logo;
         padding: 80px 0 195px 0;
-    } 
+        //--component breakpoints start
+        @include large {
+            //transform: scale(4);
+        }
+        @include medium {
+            //transform: scale(6);
+        }
+        //--component breakpoints end
+    }
     .banner-main {
         padding-bottom: 245px;
+        //--component breakpoints start
+        @include large {
+            //transform: scale(4);
+        }
+        @include medium {
+            //transform: scale(6);
+        }
+        //--component breakpoints end
         &-title {
             font-family: 'Roboto700';
-            font-size: 63px;  
+            font-size: 63px;
             text-transform: uppercase;
             margin-bottom: 10px;
-            letter-spacing: 2.52px; 
+            letter-spacing: 2.52px;
+
             span {
                 font-family: 'Roboto700';
-                font-size: 23px; 
-                letter-spacing: 0.92px; 
-                color: #b7b7b7; 
+                font-size: 23px;
+                letter-spacing: 0.92px;
+                color: #b7b7b7;
                 line-height: 1;
             }
         }
@@ -26,37 +51,6 @@
                 font-size: 14px;
                 line-height: 21px;
                 letter-spacing: 0.84px;
-        } 
-    }  
-}      
-
-
-// @media (max-width: 767px) {
-//     .bg-margin{
-//         margin: 20px 0 50px 0;
-//         .banner {
-//             .banner__text p{
-//             font-size: 40px;  
-//             margin-bottom: 40px;            
-//             }
-//         }
-//     }     
-// }
-// @media (min-width: 767px) and (max-width: 992px) {
-//     .bg-margin{
-//         margin-bottom: 70px;
-//     }
-//     .bg-margin .banner .banner__text p{
-//         font-size: 60px;  
-//         margin-bottom: 60px;            
-//     } 
-// }
-// @media (min-width: 993px) and (max-width: 1200px) {
-//     .bg-margin{
-//         margin-bottom: 130px;
-//     }
-//     .bg-margin .banner .banner__text p {
-//         font-size: 80px;  
-//         margin-bottom: 60px;            
-//     }
-// } 
+        }
+    }
+}

@@ -9,7 +9,7 @@
 @mixin banner-text {
   width: 620px;
   margin: 0 auto;
-  line-height: 26px; 
+  line-height: 26px;
   letter-spacing: 0.52px;
   color: $white;
   padding-top: 25px;
@@ -25,7 +25,7 @@
 }
 @mixin btn-style {
   width: 170px;
-  font-size: 23px; 
+  font-size: 23px;
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 0.92px;
@@ -34,31 +34,3 @@
   padding: 9px 11px;
   text-align: center;
 }
-
-// @mixin phone {
-//   @media (max-width: #{($screen-m-min - 1px)}) {
-//     // 767-320
-//     @content;
-//   }
-// }
-
-// @mixin tablet {
-//   @media (min-width:#{$screen-m-min}) and (max-width:#{($screen-l-min - 1px)}) {
-//     // 1169-768
-//     @content;
-//   }
-// }
-
-// @mixin desktop {
-//   @media (min-width:#{$screen-l-min}) and (max-width:#{($screen-xl-min - 1px)}) {
-//     // 1549-1170
-//     @content;
-//   }
-// }
-
-// @mixin desktop-up {
-//   @media (min-width:#{$screen-xl-min}) {
-//     // >1550
-//     @content;
-//   }
-// }
