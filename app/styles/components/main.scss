@@ -1,6 +1,7 @@
 .main {
     background: url('../images/bg-main.png') center no-repeat/cover;
-    color: $white; 
+    color: $white;
+    padding: 80px 0 245px 0;
     //--component breakpoints start
     @include large {
         //transform: scale(4);
@@ -12,7 +13,7 @@
     //--component breakpoints end
     .logo {
         @include logo;
-        padding: 80px 0 195px 0;
+        padding-bottom: 195px;
         //--component breakpoints start
         @include large {
             //transform: scale(4);
@@ -35,7 +36,7 @@
             //transform: scale(6);
         }
         //--component breakpoints end
-        &-title {
+        .heading{
             font-family: 'Roboto700';
             font-size: 63px;
             letter-spacing: 2.52px;
@@ -51,7 +52,7 @@
             }
         }
 
-        &-subtitle {
+        .heading-subtitle {
             font-family: 'Roboto400', sans-serif;
             font-size: 14px;
             letter-spacing: 0.84px;
