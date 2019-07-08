@@ -2,23 +2,22 @@
     display: flex;
     justify-content: space-between;
     padding: 60px 0 70px 0;
-    position: relative;
     .gallery-block {
-        width: 730px;
+        width: 73%;
         .gallery-title {
             display: flex;
+            flex-direction: row;
+            justify-content: space-between;
             padding-bottom: 52px;
             .name {
                 font-size: 30px;
                 letter-spacing: 1.2px;
-                line-height: 57px;
                 padding-right: 60px;
             }
 
             .gallery-text {
                 letter-spacing: 0.52px;
                 line-height: 20px;
-                padding-top: 10px;
             }
         }
 
@@ -45,42 +44,73 @@
     }
 
     .image {
-        height: 740px;
-        left: auto;
-        position: absolute;
-        right: 0;
-        top: -63px;
-        width: 230px;
+        display: inline-block;
+        margin-top: -142px;
+        width: 24%;
+        img {
+            width: 100%;
+        }
     }
 }
 
 @media (max-width: 767px) {
-    .gallery .gallery-block .pictures {
-        .f-inner  {
-            display: none;
-        }
-        .s-inner {
-            margin: 0 auto;
-        }
-    }
     .gallery {
-        padding-left: 15px;
-        padding-right: 15px;
+        text-align: center;
+        .gallery-block {
+            width: 100%;
+            .gallery-title {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                max-width: 80%;
+                .name {
+                    padding-bottom: 25px;
+                    padding-right: 0;
+                }
+            }
+
+            .pictures {
+                .f-inner {
+                    display: none;
+                }
+
+                .s-inner {
+                    margin: 0 auto;
+                }
+            }
+        }
+
         .image {
             display: none;
-        } 
+        }
     }
 }
 
-@media (min-width: 767px) and (max-width: 992px)  { 
-    .gallery {     
+@media (min-width: 767px) and (max-width: 992px) {
+    .gallery {
+        text-align: center;
         .gallery-block {
-            margin: 0 auto;
+            width: 100%;
+            .gallery-title {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                max-width: 80%;
+                .name {
+                    padding-bottom: 25px;
+                    padding-right: 0;
+                }
+            }
+
+            .pictures {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
         }
-        .image { 
+
+        .image {
             display: none;
         }
-    } 
-
-// @media (min-width: 993px) and (max-width: 1200px) {
+    }
 }

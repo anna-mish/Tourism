@@ -7,7 +7,7 @@
     text-align: center;
 }
 @mixin banner-text {
-    width: 620px;
+    max-width: 80%;
     margin: 0 auto;
     line-height: 26px;
     letter-spacing: 0.52px;

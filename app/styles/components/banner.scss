@@ -1,18 +1,8 @@
 .banner {
     background: url('../images/banner-bg.png') center no-repeat/cover;
-    margin-bottom: 20px;
     padding: 95px 0;
     text-align: center;
     .banner-text {
         @include banner-text;
     }
 }
-
-// @media (max-width: 767px) {
-// }
-
-// @media (min-width: 767px) and (max-width: 992px) {
-// }
-
-// @media (min-width: 993px) and (max-width: 1200px) {
-// }

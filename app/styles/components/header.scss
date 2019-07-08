@@ -1,0 +1,17 @@
+.header {
+    margin-bottom: -124px;
+    padding-top: 80px;
+    .logo {
+        @include logo;
+
+        //--component breakpoints start
+        @include large {
+            //transform: scale(4);
+        }
+
+        @include medium {
+            //transform: scale(6);
+        }
+        //--component breakpoints end
+    }
+}
