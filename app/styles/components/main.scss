@@ -1,14 +1,15 @@
- .main {
-    background: url(../images/bg-main.png) center no-repeat/cover;
-    color: $white;
-     //--component breakpoints start
-     @include large {
-         //transform: scale(4);
-     }
-     @include medium {
-         //transform: scale(6);
-     }
-     //--component breakpoints end
+.main {
+    background: url('../images/bg-main.png') center no-repeat/cover;
+    color: $white; 
+    //--component breakpoints start
+    @include large {
+        //transform: scale(4);
+    }
+
+    @include medium {
+        //transform: scale(6);
+    }
+    //--component breakpoints end
     .logo {
         @include logo;
         padding: 80px 0 195px 0;
@@ -16,17 +17,20 @@
         @include large {
             //transform: scale(4);
         }
+
         @include medium {
             //transform: scale(6);
         }
         //--component breakpoints end
     }
+
     .banner-main {
         padding-bottom: 245px;
         //--component breakpoints start
         @include large {
             //transform: scale(4);
         }
+
         @include medium {
             //transform: scale(6);
         }
@@ -34,23 +38,24 @@
         &-title {
             font-family: 'Roboto700';
             font-size: 63px;
-            text-transform: uppercase;
-            margin-bottom: 10px;
             letter-spacing: 2.52px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
 
             span {
+                color: #b7b7b7;
                 font-family: 'Roboto700';
                 font-size: 23px;
                 letter-spacing: 0.92px;
-                color: #b7b7b7;
                 line-height: 1;
             }
         }
+
         &-subtitle {
-                font-family: 'Roboto400', sans-serif;
-                font-size: 14px;
-                line-height: 21px;
-                letter-spacing: 0.84px;
+            font-family: 'Roboto400', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.84px;
+            line-height: 21px;
         }
     }
 }

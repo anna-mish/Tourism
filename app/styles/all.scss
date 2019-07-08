@@ -1,13 +1,12 @@
-@import "global/reset.scss";
-@import "global/variаble";
-@import "global/fonts";
-@import "global/mixin";
-@import "global/breakpoints";
+@import 'global/reset.scss';
+@import 'global/variаble';
+@import 'global/fonts';
+@import 'global/mixin';
+@import 'global/breakpoints';
 
-
-@import "components/global-style-site";
-@import "components/main";
-@import "components/gallery";
-@import "components/banner";
-@import "components/statistics";
-@import "components/video";
+@import 'components/global-style-site';
+@import 'components/main';
+@import 'components/gallery';
+@import 'components/banner';
+@import 'components/statistics';
+@import 'components/video';

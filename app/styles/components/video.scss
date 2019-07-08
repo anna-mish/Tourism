@@ -1,23 +1,23 @@
 .video {
-    background: url(../images/video-block-bg.png) center no-repeat/cover;  
+    background: url('../images/video-block-bg.png') center no-repeat/cover;
+    padding-top: 115px;
     text-align: center;
-    padding-top: 115px;   
     .banner-text {
         @include banner-text;
         padding-bottom: 75px;
-   }
-   .logo {
-    @include logo;
-    padding: 115px 0 95px 0;
-} 
+    }
 
+    .logo {
+        @include logo;
+        padding: 115px 0 95px 0;
+    }
 }
-@media (max-width: 767px) { 
-    
+
+@media (max-width: 767px) {
 }
+
 @media (min-width: 767px) and (max-width: 992px) {
-   
 }
+
 @media (min-width: 993px) and (max-width: 1200px) {
-    
 }
